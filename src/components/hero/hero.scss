@@ -1,7 +1,8 @@
 @import "../../app.scss";
 
 .hero {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 100px);  
+
   overflow: hidden;
   // background: linear-gradient(180deg, #0c0c1d, #111132);
   background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
@@ -31,13 +32,13 @@
       h2 {
         font-size: 30px;
       //  color: rebeccapurple;  
-      color: goldenrod;
+      color: #c4a052;
         letter-spacing: 10px;
       }
 
       h1 {
         font-size: 88px;
-        color:goldenrod;
+        color:#c4a052;
         @include mobile {
           font-size: 36px;
         }
@@ -49,7 +50,7 @@
           border: 1px solid white;
           border-radius: 10px;
           background-color: transparent;
-          color: white;
+          color: #c4a052;
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;

@@ -47,9 +47,9 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>TANISHQ JAIN</motion.h2>
+          <motion.h2 variants={textVariants}>WE ARE ACV-LEGAL</motion.h2>
           <motion.h1 variants={textVariants}>
-            Software Developer
+            "ACV - LEGAL"
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
@@ -74,7 +74,7 @@ const Hero = () => {
         Writer Content Creator Influencer
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/newHero.png" alt="" />
       </div>
     </div>
   );

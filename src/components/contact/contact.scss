@@ -2,11 +2,14 @@
 
 .contact {
   height: 100%;
-  max-width: 1366px;
+  max-width: 1450px;
+  
   margin: auto;
   display: flex;
   align-items: center;
   gap: 50px;
+  background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+  
 
   @include mobile {
     width: 100%;
@@ -52,7 +55,7 @@
 
 
     .phoneSvg {
-      stroke: orange;
+      stroke: white;
       position: absolute;
       margin: auto;
       z-index: -1;
